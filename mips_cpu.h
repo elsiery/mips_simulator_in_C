@@ -1,0 +1,22 @@
+#define INSTR_SIZE_BITS 32
+#define INSTR_MEMORY_LINES 45
+#define DATA_MEMORY_SIZE 32*1024
+#define REGISTERS_NUMBER 32
+
+#define R_INST 0
+#define SLL 0
+#define SRL 2
+#define SRA 3
+#define SLLV 4
+#define SRLV 6
+#define SRAV 7
+#define ADD 32
+#define ADDU 33
+#define SUB 34
+#define SUBU 35
+#define AND 36
+#define OR 37
+#define XOR 38
+#define NOR 39
+#define SLT 42
+#define SLTU 43
