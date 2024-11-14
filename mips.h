@@ -1,0 +1,40 @@
+#define INSTR_SIZE_BITS 32
+#define INSTR_MEMORY_LINES 93
+#define DATA_MEMORY_SIZE 32*1024
+#define REGISTERS_NUMBER 32
+
+#define R_INST 0
+#define SLL 0
+#define SRL 2
+#define SRA 3
+#define SLLV 4
+#define SRLV 6
+#define SRAV 7
+#define ADD 32
+#define ADDU 33
+#define SUB 34
+#define SUBU 35
+#define AND 36
+#define OR 37
+#define XOR 38
+#define NOR 39
+#define SLT 42
+#define SLTU 43
+#define ADDI   8
+#define ADDIU  9
+#define SLTI  10 
+#define SLTIU 11
+#define ANDI  12
+#define ORI   13
+#define XORI  14
+#define LUI   15
+#define LB    32
+#define LH    33
+#define LW    34
+#define LBU   36
+#define LHU   37
+#define SB    40
+#define SH    41
+#define SW    43
+
+
