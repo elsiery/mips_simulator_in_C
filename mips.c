@@ -32,7 +32,7 @@ SOFTWARE.
 unsigned int* instr_memory;
 unsigned int* data_memory;
 void mips_cpu(int,int *);
-unsigned int stringBin(char *bin)
+unsigned int string_to_bin(char *bin)
 {
     char *b;
     unsigned int n,bit;
@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
     unsigned int i=0;
     unsigned int v;
     while(fgets(mystring,34,asm_instr)) {
-        v = stringBin(mystring);
+        v = string_to_bin(mystring);
         instr_memory[i] = v;
         i+=1;
     }
